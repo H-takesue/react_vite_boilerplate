@@ -1,0 +1,20 @@
+{
+  "singleQuote": true,
+  "jsxBracketSameLine": true,
+  "tabWidth": 4,
+  "printWidth": 180,
+  "overrides": [
+    {
+      "files": "*.test.js",
+      "options": {
+        "semi": true
+      }
+    },
+    {
+      "files": ["*.css", "*.scss"],
+      "options": {
+        "tabWidth": 2
+      }
+    }
+  ]
+}
